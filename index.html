@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Alves - Portfólio</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;Samuel/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#experience" class="nav-link">Experiência</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#certificates" class="nav-link">Certificados</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Olá, eu sou</span>
+                        <span class="name">Samuel Alves</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Estudante de Engenharia de Software</h2>
+                    <p class="hero-description">
+                        Determinado, curioso e sedento por aprendizado, estou pronto para mergulhar de cabeça em desafios e contribuir com entusiasmo para projetos inovadores.
+                    </p>
+                    <div class="hero-buttons">
+                        <a target="_blank" href="https://wa.me/5571987364634?text=Opa%2C%20vim%20pelo%20seu%20portf%C3%B3lio!%20%3AD%0A%0A...(Escreva%20sua%20mensagem)" class="btn btn-primary">Entre em Contato</a>
+                        <a href="#projects" class="btn btn-secondary">Ver Projetos</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-animation">
+                        <div class="code-line">
+                            <span class="code-keyword">const</span>
+                            <span class="code-variable">profissional</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-string">"Samuel Alves"</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">const</span>
+                            <span class="code-variable">personalidade</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-array">["Curioso", "Determinado", "Colaborativo"]</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-keyword">const</span>
+                            <span class="code-variable">mindset</span>
+                            <span class="code-operator">=</span>
+                            <span class="code-array">["Autodidata", "Resiliente", "Empático"]</span>
+                        </div>
+
+                        <div class="code-line">
+                            <span class="code-keyword">function</span>
+                            <span class="code-function">createAmazingProjects</span>() {
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-keyword">return</span>
+                            <span class="code-string">"Inovação, qualidade, aprendizado constante e paixão por aprender"</span>
+                        </div>
+                        <div class="code-line">}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Estudante de Engenharia de Software</h3>
+                    <p>
+                        Sou apaixonado por tecnologia, autodidata, criativo, proativo e acostumado a trabalhar em equipe, busco constantemente novos desafios para aprimorar minhas habilidades técnicas e contribuir para projetos inovadores. Meu objetivo é me tornar um profissional versátil e completo, capaz de atuar em várias áreas da tecnologia, sempre visando excelência e entrega de valor.
+                    </p>
+                    <p>
+                        Estou sempre buscando novos desafios que me permitam aplicar e expandir meus conhecimentos, contribuindo para projetos inovadores. Meu objetivo é me tornar um desenvolvedor versátil e completo, capaz de atuar em diversas áreas da tecnologia, sempre focado em entregar valor e buscar a excelência.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span class="info-label">Nascimento:</span>
+                            <span class="info-value">Maio 2003</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="info-label">Idade:</span>
+                            <span class="info-value">22 anos</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span class="info-label">Telefone:</span>
+                            <span class="info-value">+55 (71) 9 8736-4634</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">samalves2003@outlook.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span class="info-label">Cidade:</span>
+                            <span class="info-value">Salvador-BA, Brasil</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span class="info-label">Freelance:</span>
+                            <span class="info-value">Disponível</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-content">
+                <div class="technical-skills">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Automações Excel</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Automações Excel com IA</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Automações Python</span>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Bootstrap</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Excel</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Pacote Office</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skill-tags">
+                        <span class="soft-skill-tag">Agilidade</span>
+                        <span class="soft-skill-tag">Autodidata</span>
+                        <span class="soft-skill-tag">Canva-PRO</span>
+                        <span class="soft-skill-tag">Capacidade de adaptação</span>
+                        <span class="soft-skill-tag">Comprometido</span>
+                        <span class="soft-skill-tag">Criatividade</span>
+                        <span class="soft-skill-tag">Design para redes sociais e mídia Post</span>
+                        <span class="soft-skill-tag">Excelente Comunicador</span>
+                        <span class="soft-skill-tag">Fome de aprendizado</span>
+                        <span class="soft-skill-tag">Iniciativa</span>
+                        <span class="soft-skill-tag">Liderança</span>
+                        <span class="soft-skill-tag">Organização</span>
+                        <span class="soft-skill-tag">Planejamento</span>
+                        <span class="soft-skill-tag">Proatividade</span>
+                        <span class="soft-skill-tag">Trabalhar em Equipe</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Experiência -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Técnico de Implantação N1</h3>
+                        <h4>POS Controle</h4>
+                        <span class="timeline-date">01/2025 - 07/2025</span>
+                        <p>Após 3 meses como estagiário, fui efetivado como
+                            Técnico de Implantação N1. Além das atividades
+                            técnicas, atuo principalmente na gestão de tarefas,
+                            orientando a equipe sobre como e por onde seguir para
+                            garantir a entrega adequada das demandas.
+                            Minhas principais responsabilidades incluem:
+                            <br><br>
+                            Atendimento ao cliente via WhatsApp, telefone e
+                            plataforma de atendimento remoto (Movidesk);
+                            <br><br>
+                            Registro e acompanhamento dos atendimentos realizados;
+                            Configuração de terminais TEF/IP dos clientes;
+                            <br><br>
+                            Monitoramento dos status NDD e das operações do
+                            sistema;
+                            <br><br>
+                            Treinamento de clientes para uso eficiente do sistema,
+                            promovendo autonomia e satisfação;
+                            <br><br>
+                            Suporte e orientação a novos colaboradores, auxiliando
+                            em sua adaptação e aprendizado das rotinas;
+                            <br><br>
+                            Implantação de software;
+                            <br><br>
+                            Elaboração de Procedimentos Operacionais Padrão
+                            (POP).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Estagiário de Implantação</h3>
+                        <h4>POS Controle</h4>
+                        <span class="timeline-date">09/2024 - 01/2025</span>
+                        <p>Como estagiário de suporte técnico e implantação na POS Controle, sou responsável pela implantação do software da empresa para nossos clientes, criando um ambiente totalmente personalizado para atender às necessidades específicas de cada um.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Freelancer</h3>
+                        <h4>SamDev</h4>
+                        <span class="timeline-date">04/2024 - Atual</span>
+                        <p>Na SamDev, como desenvolvedor web freelancer, lidero a criação de websites e soluções digitais personalizadas, aplicando técnicas de desenvolvimento de mercado para entregar produtos de qualidade.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Jovem Aprendiz</h3>
+                        <h4>HEINEKEN LOGÍSTICA E DISTRIBUIÇÃO</h4>
+                        <span class="timeline-date">06/2022 - 06/2024</span>
+                        <p>Atuei em gestão de ativos, dentre as diversas atividades da área eram presentes, inventários e contagens semanais de estoque, gerar ordens pra saída e recolha de investimento da empresa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Educação -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Educação</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bacharelado em Engenharia de Software</h3>
+                        <h4>Universidade Católica do Salvador - UCSal</h4>
+                        <span class="timeline-date">Julho 2024 - Cursando</span>
+                        <p>Cursando o 3° Semestre.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Curso Auxiliar Administrativo</h3>
+                        <h4>Instituto Euvaldo Lodi - IEL</h4>
+                        <span class="timeline-date">Junho 2022 - Junho 2024</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <p class="section-subtitle">Conheça alguns dos meus projetos, como a criação de sites e landing pages personalizados usando HTML, CSS e JavaScript.</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/landing page GTA V.png" alt="" width="100%" height="110%">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a target="_blank" href="https://samalves2003.github.io/Landing-page-GTA/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a target="_blank" href="https://github.com/Samalves2003/Landing-page-GTA" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Page GTA V</h3>
+                        <p>Um dos meus primeiros projetos de estudo foi a criação de uma landing page focada no GTA V.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/nutri camilo.png" alt="" width="100%" height="110%">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a target="_blank" href="https://projectnutricamilo.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a target="_blank" href="https://github.com/Samalves2003/nutricamilo" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>João Camilo Nutrição</h3>
+                        <p>Meu primeiro projeto freelancer foi criar um site para um nutricionista. Desenvolvi tudo do zero, usando HTML, CSS e JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/Landing Page m imoveis.png" alt="" width="100%" height="110%">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a target="_blank" href="https://marceloalvesimoveis.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a target="_blank" href="https://github.com/Samalves2003/marcelo-alves-imoveis" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Landing Page para Marcelo Alves Imóveis</h3>
+                        <p>Criei essa landing page para a Marcelo Alves Imóveis com o objetivo de fortalecer sua presença digital, destacando seus mais de 15 anos de experiência no mercado e facilitando o contato direto com os clientes.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./src/cal IMC.png" alt="" width="100%" height="100%">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a target="_blank" href="https://calculadoraimcfront.netlify.app" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a target="_blank" href="https://github.com/Samalves2003/IMC-FrontEnd" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Calculadora IMC</h3>
+                        <p>Seguindo com a prática em JavaScript, resolvi tirar do papel uma ideia simples: uma calculadora de IMC.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Certificados -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificados</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Algoritmos e Lógica - I</h3>
+                    <p>SerTop</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Automação com IA no Excel e Google Sheets + ChatGPT</h3>
+                    <p>Udemy - Data Companions</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Auxiliar Administrativo</h3>
+                    <p>Programa IEL</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>C# Basics for Beginners</h3>
+                    <p>Learn C# Fundamentals by Coding</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificação para Analista de Atendimento e Suporte</h3>
+                    <p>ZENVIA</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Como Automatizar as suas planilhas do Excel com Python</h3>
+                    <p>Udemy - Tiago Ribeiro</p>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Web Frontend Fundamentos</h3>
+                    <p>HTML CSS JS</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estou sempre aberto a novas oportunidades e projetos interessantes!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>samalves2003@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>+55 (71) 98736-4634</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <a target="_blank" href="https://wa.me/5571987364634?text=Opa%2C%20vim%20pelo%20seu%20portf%C3%B3lio!%20%3AD%0A%0A...(Escreva%20sua%20mensagem)"><p>Clique aqui e entre em contato</p></a>
+                            
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a target="_blank" href="https://www.linkedin.com/in/samuel-alves2003/"><p>Conecte-se comigo!</p></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Samuel Alves. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
