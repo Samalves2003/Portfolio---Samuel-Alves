@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
+
 }
 
 :root {
@@ -17,9 +19,14 @@
     --transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     font-family: var(--font-mono);
@@ -109,6 +116,14 @@ body {
     transition: var(--transition);
 }
 
+.hero,
+.about,
+.skills-content,
+.projects-grid,
+.certificates-grid {
+    overflow-x: hidden;
+}
+
 /* Seção Hero */
 .hero {
     min-height: 100vh;
@@ -130,6 +145,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    min-width: 0;
 }
 
 .hero-text {
